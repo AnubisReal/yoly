@@ -1,0 +1,1102 @@
+---
+
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/jpeg" href="/perfil.jpg" />
+		<link rel="apple-touch-icon" href="/perfil.jpg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="theme-color" content="#ffc9e5" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="🎶 Artista | Creadora de contenido | Conecta conmigo" />
+		<title>Yoly</title>
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Yoly" />
+		<meta property="og:description" content="🎶 Artista | Creadora de contenido | Conecta conmigo" />
+		<meta property="og:image" content="/perfil.jpg" />
+		<meta property="og:url" content="https://yolyoly.com" />
+		
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Yoly" />
+		<meta name="twitter:description" content="🎶 Artista | Creadora de contenido | Conecta conmigo" />
+		<meta name="twitter:image" content="/perfil.jpg" />
+	</head>
+	<body>
+		<div class="snowflakes" aria-hidden="true">
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+			<div class="snowflake">❅</div>
+			<div class="snowflake">❆</div>
+		</div>
+		<div class="snowflakes-front" aria-hidden="true"></div>
+		<canvas id="aurora-canvas"></canvas>
+		<div class="clouds"></div>
+		<nav class="navbar">
+			<div class="nav-content">
+				<div class="profile-circle">
+					<img src="/perfil.jpg" alt="Perfil" />
+				</div>
+				<span class="nav-text" data-text="Watch Now">Watch Now</span>
+			</div>
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJd0fHC5iRg?si=O2cG2essH6Lon4yC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<div class="platform-menu">
+				<a href="https://youtu.be/ZJd0fHC5iRg?si=X4gTh5XAYR0WNOho" target="_blank" rel="noopener noreferrer" class="platform-bar">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+					</svg>
+					<span>YouTube</span>
+				</a>
+				<a href="https://open.spotify.com/intl-es/artist/36cJayqBrMGBw8tf1I9Erm?si=VTHQktaETh-07ZTSSb92uQ" target="_blank" rel="noopener noreferrer" class="platform-bar">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+					</svg>
+					<span>Spotify</span>
+				</a>
+				<a href="https://music.apple.com/es/artist/yoly-yoly/1624363063" target="_blank" rel="noopener noreferrer" class="platform-bar">
+					<svg viewBox="0 0 24 24" fill="currentColor" style="transform: scale(1.35);">
+						<path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+					</svg>
+					<span>Apple Music</span>
+				</a>
+				<a href="https://link.deezer.com/s/32i9hXdaPlWEwCCL3kIU4" target="_blank" rel="noopener noreferrer" class="platform-bar">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M18.81 4.16v3.03H24V4.16h-5.19zm0 4.54v3.03H24V8.7h-5.19zm-6.42 0v3.03h5.19V8.7h-5.19zm-6.43 0v3.03h5.19V8.7H5.96zM0 8.7v3.03h5.19V8.7H0zm12.39 4.54v3.03h5.19v-3.03h-5.19zm-6.43 0v3.03h5.19v-3.03H5.96zm-5.96 0v3.03h5.19v-3.03H0zm18.81 0v3.03H24v-3.03h-5.19zm0 4.55v3.03H24v-3.03h-5.19zm-6.42 0v3.03h5.19v-3.03h-5.19zm-6.43 0v3.03h5.19v-3.03H5.96zm-5.96 0v3.03h5.19v-3.03H0z"/>
+					</svg>
+					<span>Deezer</span>
+				</a>
+			</div>
+			<div class="social-menu">
+				<a href="https://www.instagram.com/yoly___yoly?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-circle">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+					</svg>
+				</a>
+				<a href="https://www.facebook.com/yoly.acostalopez.7" target="_blank" rel="noopener noreferrer" class="social-circle">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+					</svg>
+				</a>
+				<a href="https://www.tiktok.com/@yolyyolystyle" target="_blank" rel="noopener noreferrer" class="social-circle">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+					</svg>
+				</a>
+				<a href="https://promyolyyoly.com" target="_blank" rel="noopener noreferrer" class="social-circle">
+					<svg viewBox="0 0 24 24" fill="currentColor">
+						<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+					</svg>
+				</a>
+			</div>
+		</nav>
+		<footer class="footer">
+			<p>© 2026 yolyoly.com Todos los derechos reservados</p>
+		</footer>
+	</body>
+	<style>
+		@font-face {
+			font-family: 'Monument Extended';
+			src: url('/fonts/MonumentExtended-Regular.otf') format('opentype');
+			font-weight: 400;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Monument Extended';
+			src: url('/fonts/MonumentExtended-Ultrabold.otf') format('opentype');
+			font-weight: 800;
+			font-style: normal;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html, body {
+			width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+		}
+
+		body {
+			font-family: 'Monument Extended', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			background-color: #DFA5AD;
+		}
+
+		body::before {
+			content: '';
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url('/bk.png') center center / cover no-repeat;
+			-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+			mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+			z-index: -1;
+		}
+
+		#particles-js {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 9999;
+			pointer-events: none;
+		}
+
+		#aurora-canvas {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			pointer-events: none;
+			opacity: 0.4;
+		}
+
+		.particles {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+			pointer-events: none;
+		}
+
+		.particle {
+			position: absolute;
+			width: 4px;
+			height: 4px;
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 50%;
+			animation: float linear infinite;
+			box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+		}
+
+		@keyframes float {
+			0% {
+				transform: translateY(100vh) translateX(0) scale(0);
+				opacity: 0;
+			}
+			10% {
+				opacity: 1;
+			}
+			90% {
+				opacity: 1;
+			}
+			100% {
+				transform: translateY(-100px) translateX(100px) scale(1);
+				opacity: 0;
+			}
+		}
+
+		.clouds {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 999;
+			pointer-events: none;
+			overflow: hidden;
+		}
+
+		.cloud {
+			position: absolute;
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 100px;
+			opacity: 0.8;
+			animation: cloudFloat linear infinite;
+			box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+		}
+
+		.cloud::before,
+		.cloud::after {
+			content: '';
+			position: absolute;
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 100px;
+		}
+
+		.cloud::before {
+			width: 50px;
+			height: 50px;
+			top: -25px;
+			left: 10px;
+		}
+
+		.cloud::after {
+			width: 60px;
+			height: 60px;
+			top: -30px;
+			right: 10px;
+		}
+
+		@keyframes cloudFloat {
+			0% {
+				transform: translateX(-200px);
+			}
+			100% {
+				transform: translateX(calc(100vw + 200px));
+			}
+		}
+
+		.navbar {
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			right: 20px;
+			z-index: 1000;
+			animation: slideDown 1s cubic-bezier(0.16, 1, 0.3, 1);
+		}
+
+		@keyframes slideDown {
+			from {
+				transform: translateY(-100px);
+			}
+			to {
+				transform: translateY(0);
+			}
+		}
+
+		.nav-content {
+			background: rgba(255, 255, 255, 0.01);
+			backdrop-filter: blur(6px);
+			-webkit-backdrop-filter: blur(6px);
+			padding: 6px 24px 6px 6px;
+			border-radius: 50px;
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.05),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15);
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 60px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.nav-content::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(90deg, 
+				transparent, 
+				rgba(255, 255, 255, 0.3), 
+				transparent);
+			opacity: 0;
+			transition: opacity 0.3s;
+		}
+
+		.nav-content[style*="--flare-active: 1"]::before {
+			animation: flare 1.5s ease-out;
+		}
+
+		@keyframes flare {
+			0% {
+				left: -100%;
+				opacity: 1;
+			}
+			100% {
+				left: 200%;
+				opacity: 0;
+			}
+		}
+
+		.nav-text {
+			font-size: 1.05rem;
+			font-weight: 400;
+			color: #ff6bb5;
+			text-shadow: 0 0 15px rgba(255, 107, 181, 0.8), 0 0 30px rgba(255, 107, 181, 0.6), 0 0 45px rgba(255, 107, 181, 0.4);
+			letter-spacing: 0.02em;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+			opacity: 1;
+		}
+
+		.nav-content.menu-open .nav-text {
+			transform: translate(-50%, -50px);
+			opacity: 0;
+		}
+
+		.nav-text::before,
+		.nav-text::after {
+			content: attr(data-text);
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.nav-text::before {
+			text-shadow: 2px 0 rgba(255, 0, 0, 0.7);
+			animation: glitch-1 2.5s infinite linear alternate-reverse;
+		}
+
+		.nav-text::after {
+			text-shadow: -2px 0 rgba(0, 255, 255, 0.7);
+			animation: glitch-2 2s infinite linear alternate-reverse;
+		}
+
+		@keyframes glitch-1 {
+			0% {
+				clip-path: inset(40% 0 61% 0);
+				transform: translate(-2px, 0);
+			}
+			5% {
+				clip-path: inset(10% 0 85% 0);
+				transform: translate(2px, 0);
+			}
+			10% {
+				clip-path: inset(80% 0 10% 0);
+				transform: translate(-1px, 0);
+			}
+			15% {
+				clip-path: inset(10% 0 85% 0);
+				transform: translate(1px, 0);
+			}
+			20% {
+				clip-path: inset(92% 0 1% 0);
+				transform: translate(2px, 0);
+			}
+			25% {
+				clip-path: inset(35% 0 60% 0);
+				transform: translate(-2px, 0);
+			}
+			30% {
+				clip-path: inset(5% 0 90% 0);
+				transform: translate(1px, 0);
+			}
+			35% {
+				clip-path: inset(70% 0 25% 0);
+				transform: translate(-1px, 0);
+			}
+			40% {
+				clip-path: inset(43% 0 1% 0);
+				transform: translate(-2px, 0);
+			}
+			45% {
+				clip-path: inset(15% 0 80% 0);
+				transform: translate(2px, 0);
+			}
+			50% {
+				clip-path: inset(60% 0 35% 0);
+				transform: translate(-1px, 0);
+			}
+			55% {
+				clip-path: inset(20% 0 75% 0);
+				transform: translate(1px, 0);
+			}
+			60% {
+				clip-path: inset(25% 0 58% 0);
+				transform: translate(2px, 0);
+			}
+			65% {
+				clip-path: inset(85% 0 5% 0);
+				transform: translate(-2px, 0);
+			}
+			70% {
+				clip-path: inset(50% 0 45% 0);
+				transform: translate(1px, 0);
+			}
+			75% {
+				clip-path: inset(30% 0 65% 0);
+				transform: translate(-1px, 0);
+			}
+			80% {
+				clip-path: inset(54% 0 7% 0);
+				transform: translate(-2px, 0);
+			}
+			85% {
+				clip-path: inset(12% 0 83% 0);
+				transform: translate(2px, 0);
+			}
+			90% {
+				clip-path: inset(75% 0 20% 0);
+				transform: translate(-1px, 0);
+			}
+			95% {
+				clip-path: inset(45% 0 50% 0);
+				transform: translate(1px, 0);
+			}
+			100% {
+				clip-path: inset(58% 0 43% 0);
+				transform: translate(2px, 0);
+			}
+		}
+
+		@keyframes glitch-2 {
+			0% {
+				clip-path: inset(65% 0 15% 0);
+				transform: translate(2px, 0);
+			}
+			5% {
+				clip-path: inset(25% 0 70% 0);
+				transform: translate(-2px, 0);
+			}
+			10% {
+				clip-path: inset(90% 0 5% 0);
+				transform: translate(1px, 0);
+			}
+			15% {
+				clip-path: inset(5% 0 88% 0);
+				transform: translate(-1px, 0);
+			}
+			20% {
+				clip-path: inset(12% 0 78% 0);
+				transform: translate(-2px, 0);
+			}
+			25% {
+				clip-path: inset(55% 0 40% 0);
+				transform: translate(2px, 0);
+			}
+			30% {
+				clip-path: inset(18% 0 77% 0);
+				transform: translate(-1px, 0);
+			}
+			35% {
+				clip-path: inset(82% 0 13% 0);
+				transform: translate(1px, 0);
+			}
+			40% {
+				clip-path: inset(83% 0 5% 0);
+				transform: translate(2px, 0);
+			}
+			45% {
+				clip-path: inset(33% 0 62% 0);
+				transform: translate(-2px, 0);
+			}
+			50% {
+				clip-path: inset(8% 0 87% 0);
+				transform: translate(1px, 0);
+			}
+			55% {
+				clip-path: inset(68% 0 27% 0);
+				transform: translate(-1px, 0);
+			}
+			60% {
+				clip-path: inset(38% 0 40% 0);
+				transform: translate(-2px, 0);
+			}
+			65% {
+				clip-path: inset(3% 0 92% 0);
+				transform: translate(2px, 0);
+			}
+			70% {
+				clip-path: inset(73% 0 22% 0);
+				transform: translate(-1px, 0);
+			}
+			75% {
+				clip-path: inset(48% 0 47% 0);
+				transform: translate(1px, 0);
+			}
+			80% {
+				clip-path: inset(20% 0 70% 0);
+				transform: translate(2px, 0);
+			}
+			85% {
+				clip-path: inset(88% 0 7% 0);
+				transform: translate(-2px, 0);
+			}
+			90% {
+				clip-path: inset(28% 0 67% 0);
+				transform: translate(1px, 0);
+			}
+			95% {
+				clip-path: inset(63% 0 32% 0);
+				transform: translate(-1px, 0);
+			}
+			100% {
+				clip-path: inset(72% 0 20% 0);
+				transform: translate(-2px, 0);
+			}
+		}
+
+		.profile-circle {
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			background: rgba(255, 255, 255, 0.2);
+			border: 2px solid rgba(255, 255, 255, 0.3);
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+			opacity: 1;
+		}
+
+		.nav-content.menu-open .profile-circle {
+			transform: translateX(-80px);
+			opacity: 0;
+		}
+
+		.profile-circle img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		.logo {
+			font-size: 1.25rem;
+			font-weight: 800;
+			color: #1a1a1a;
+		}
+
+		h1 {
+			font-size: 4rem;
+			font-weight: 800;
+			color: #1a1a1a;
+			letter-spacing: -0.02em;
+		}
+
+		.platform-menu {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			margin-top: 12px;
+		}
+
+		.video-container {
+			margin-top: 16px;
+			border-radius: 24px;
+			overflow: hidden;
+			background: rgba(255, 255, 255, 0.01);
+			backdrop-filter: blur(6px);
+			-webkit-backdrop-filter: blur(6px);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.05),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15);
+			position: relative;
+		}
+
+		.video-container::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(90deg, 
+				transparent, 
+				rgba(255, 255, 255, 0.2), 
+				transparent);
+			opacity: 0;
+			z-index: 1;
+			pointer-events: none;
+		}
+
+		.video-container[style*="--flare-active: 1"]::before {
+			animation: flare 1.5s ease-out;
+		}
+
+		.video-container iframe {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 16 / 9;
+			display: block;
+			border: none;
+		}
+
+		.platform-bar {
+			background: rgba(255, 255, 255, 0.01);
+			backdrop-filter: blur(6px);
+			-webkit-backdrop-filter: blur(6px);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			border-radius: 50px;
+			padding: 16px 24px;
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			color: #ff6bb5;
+			text-decoration: none;
+			font-size: 1.05rem;
+			font-weight: 400;
+			text-transform: uppercase;
+			text-shadow: 0 0 15px rgba(255, 107, 181, 0.8), 0 0 30px rgba(255, 107, 181, 0.6), 0 0 45px rgba(255, 107, 181, 0.4);
+			transition: all 0.3s ease;
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.05),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15);
+			position: relative;
+			overflow: hidden;
+		}
+
+		.platform-bar::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(90deg, 
+				transparent, 
+				rgba(255, 255, 255, 0.2), 
+				transparent);
+			opacity: 0;
+		}
+
+		.platform-bar[style*="--flare-active: 1"]::before {
+			animation: flare 1.5s ease-out;
+		}
+
+		.platform-bar:hover {
+			background: rgba(255, 255, 255, 0.05);
+			border-color: rgba(255, 255, 255, 0.15);
+			transform: translateX(5px);
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.1),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15),
+				0 0 30px rgba(255, 255, 255, 0.2);
+		}
+
+		.platform-bar svg {
+			width: 24px;
+			height: 24px;
+			flex-shrink: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.social-menu {
+			display: flex;
+			gap: 12px;
+			margin-top: 16px;
+			justify-content: center;
+		}
+
+		.social-circle {
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			background: rgba(255, 255, 255, 0.01);
+			backdrop-filter: blur(6px);
+			-webkit-backdrop-filter: blur(6px);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #ff6bb5;
+			text-decoration: none;
+			transition: all 0.3s ease;
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.05),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15);
+			position: relative;
+			overflow: hidden;
+		}
+
+		.social-circle::before {
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 200%;
+			height: 200%;
+			background: linear-gradient(90deg, 
+				transparent, 
+				rgba(255, 255, 255, 0.3), 
+				transparent);
+			opacity: 0;
+		}
+
+		.social-circle[style*="--flare-active: 1"]::before {
+			animation: flare-circle 1.5s ease-out;
+		}
+
+		@keyframes flare-circle {
+			0% {
+				transform: rotate(0deg) translateX(-100%);
+				opacity: 1;
+			}
+			100% {
+				transform: rotate(360deg) translateX(100%);
+				opacity: 0;
+			}
+		}
+
+		.social-circle:hover {
+			background: rgba(255, 255, 255, 0.05);
+			border-color: rgba(255, 255, 255, 0.15);
+			transform: translateY(-3px);
+			box-shadow: 
+				0 8px 32px rgba(0, 0, 0, 0.1),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15),
+				0 0 25px rgba(255, 255, 255, 0.3);
+		}
+
+		.social-circle svg {
+			width: 20px;
+			height: 20px;
+		}
+
+		.footer {
+			position: fixed;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+			z-index: 999;
+		}
+
+		.footer p {
+			font-size: 0.85rem;
+			color: #ff6bb5;
+			text-shadow: 0 0 15px rgba(255, 107, 181, 0.8), 0 0 30px rgba(255, 107, 181, 0.6), 0 0 45px rgba(255, 107, 181, 0.4);
+			font-weight: 400;
+			letter-spacing: 0.02em;
+		}
+
+		.snowflakes {
+			position: fixed;
+			top: -10%;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+			z-index: 1000;
+		}
+
+		.snowflake {
+			position: absolute;
+			top: -10%;
+			color: #fff;
+			opacity: 0.8;
+			animation: fall linear infinite, sway ease-in-out infinite alternate, fadeOut linear infinite;
+			text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+			user-select: none;
+		}
+
+		@keyframes fall {
+			to {
+				transform: translateY(110vh) rotate(360deg);
+			}
+		}
+
+		@keyframes sway {
+			from {
+				margin-left: -20px;
+			}
+			to {
+				margin-left: 20px;
+			}
+		}
+
+		@keyframes fadeOut {
+			0% {
+				opacity: 0;
+			}
+			10% {
+				opacity: 0.8;
+			}
+			75% {
+				opacity: 0.8;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+
+		.snowflake:nth-child(1) {
+			left: 5%;
+			font-size: 1.2em;
+			animation-duration: 12s, 3s, 12s;
+			animation-delay: 0s, 0s, 0s;
+		}
+
+		.snowflake:nth-child(2) {
+			left: 12%;
+			font-size: 1.8em;
+			animation-duration: 9s, 2.5s, 9s;
+			animation-delay: 2s, 0.5s, 2s;
+		}
+
+		.snowflake:nth-child(3) {
+			left: 18%;
+			font-size: 1em;
+			animation-duration: 14s, 4s, 14s;
+			animation-delay: 4s, 1s, 4s;
+		}
+
+		.snowflake:nth-child(4) {
+			left: 25%;
+			font-size: 1.5em;
+			animation-duration: 10s, 3.5s, 10s;
+			animation-delay: 1s, 0s, 1s;
+		}
+
+		.snowflake:nth-child(5) {
+			left: 32%;
+			font-size: 1.3em;
+			animation-duration: 11s, 2.8s, 11s;
+			animation-delay: 3s, 1.2s, 3s;
+		}
+
+		.snowflake:nth-child(6) {
+			left: 40%;
+			font-size: 1.6em;
+			animation-duration: 13s, 3.2s, 13s;
+			animation-delay: 0.5s, 0.8s, 0.5s;
+		}
+
+		.snowflake:nth-child(7) {
+			left: 48%;
+			font-size: 1.1em;
+			animation-duration: 15s, 4.5s, 15s;
+			animation-delay: 5s, 0.3s, 5s;
+		}
+
+		.snowflake:nth-child(8) {
+			left: 55%;
+			font-size: 1.7em;
+			animation-duration: 8s, 2.2s, 8s;
+			animation-delay: 2.5s, 1.5s, 2.5s;
+		}
+
+		.snowflake:nth-child(9) {
+			left: 62%;
+			font-size: 1.4em;
+			animation-duration: 12.5s, 3.8s, 12.5s;
+			animation-delay: 1.5s, 0.6s, 1.5s;
+		}
+
+		.snowflake:nth-child(10) {
+			left: 70%;
+			font-size: 1em;
+			animation-duration: 10.5s, 2.9s, 10.5s;
+			animation-delay: 4.5s, 1.8s, 4.5s;
+		}
+
+		.snowflake:nth-child(11) {
+			left: 77%;
+			font-size: 1.9em;
+			animation-duration: 9.5s, 3.3s, 9.5s;
+			animation-delay: 0.8s, 0.2s, 0.8s;
+		}
+
+		.snowflake:nth-child(12) {
+			left: 83%;
+			font-size: 1.2em;
+			animation-duration: 13.5s, 4.2s, 13.5s;
+			animation-delay: 3.5s, 1.4s, 3.5s;
+		}
+
+		.snowflake:nth-child(13) {
+			left: 88%;
+			font-size: 1.5em;
+			animation-duration: 11.5s, 2.7s, 11.5s;
+			animation-delay: 2.2s, 0.9s, 2.2s;
+		}
+
+		.snowflake:nth-child(14) {
+			left: 93%;
+			font-size: 1.3em;
+			animation-duration: 14.5s, 3.6s, 14.5s;
+			animation-delay: 5.5s, 0.4s, 5.5s;
+		}
+
+		.snowflake:nth-child(15) {
+			left: 8%;
+			font-size: 1.6em;
+			animation-duration: 10.2s, 3.1s, 10.2s;
+			animation-delay: 1.8s, 1.1s, 1.8s;
+		}
+
+		.snowflake:nth-child(16) {
+			left: 15%;
+			font-size: 1.1em;
+			animation-duration: 12.8s, 2.6s, 12.8s;
+			animation-delay: 4.2s, 0.7s, 4.2s;
+		}
+
+		.snowflake:nth-child(17) {
+			left: 35%;
+			font-size: 1.8em;
+			animation-duration: 9.8s, 4.1s, 9.8s;
+			animation-delay: 0.3s, 1.6s, 0.3s;
+		}
+
+		.snowflake:nth-child(18) {
+			left: 52%;
+			font-size: 1.4em;
+			animation-duration: 11.2s, 3.4s, 11.2s;
+			animation-delay: 3.8s, 0.5s, 3.8s;
+		}
+
+		.snowflake:nth-child(19) {
+			left: 65%;
+			font-size: 1.7em;
+			animation-duration: 13.2s, 2.4s, 13.2s;
+			animation-delay: 2.8s, 1.3s, 2.8s;
+		}
+
+		.snowflake:nth-child(20) {
+			left: 95%;
+			font-size: 1.2em;
+			animation-duration: 10.8s, 3.9s, 10.8s;
+			animation-delay: 5.2s, 0.1s, 5.2s;
+		}
+
+		/* Copos de nieve del frente */
+		.snowflakes-front {
+			position: fixed;
+			top: -10%;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+			z-index: 10000;
+		}
+
+		.snowflake-front-dynamic {
+			position: absolute;
+			top: -10%;
+			color: #fff;
+			opacity: 0.95;
+			text-shadow: 0 0 12px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.5);
+			user-select: none;
+			filter: blur(1.2px);
+			will-change: transform, opacity, margin-left;
+			animation: 
+				fallFrontDynamic var(--fall-duration, 12s) cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards,
+				swayFrontDynamic var(--sway-duration, 4s) ease-in-out infinite alternate,
+				fadeOut var(--fall-duration, 12s) ease-in forwards;
+		}
+
+		@keyframes fallFrontDynamic {
+			0% {
+				transform: translateY(0) rotate(0deg);
+			}
+			100% {
+				transform: translateY(110vh) rotate(var(--rotation, 360deg));
+			}
+		}
+
+		@keyframes swayFrontDynamic {
+			0% {
+				margin-left: calc(var(--sway-amount, 50px) * -1);
+			}
+			100% {
+				margin-left: var(--sway-amount, 50px);
+			}
+		}
+	</style>
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', () => {
+			// Random Flare Effect
+			function addRandomFlare(element) {
+				const flare = element.querySelector('::before') || element;
+				const randomDelay = Math.random() * 5000 + 2000; // Entre 2-7 segundos
+				
+				setTimeout(() => {
+					element.style.setProperty('--flare-active', '1');
+					setTimeout(() => {
+						element.style.setProperty('--flare-active', '0');
+						addRandomFlare(element);
+					}, 1500);
+				}, randomDelay);
+			}
+
+			// Aplicar a todos los elementos con flare
+			const navContent = document.querySelector('.nav-content');
+			const videoContainer = document.querySelector('.video-container');
+			const platformBars = document.querySelectorAll('.platform-bar');
+			const socialCircles = document.querySelectorAll('.social-circle');
+
+			if (navContent) addRandomFlare(navContent);
+			if (videoContainer) addRandomFlare(videoContainer);
+			platformBars.forEach(bar => addRandomFlare(bar));
+			socialCircles.forEach(circle => addRandomFlare(circle));
+		});
+
+		// Copos de nieve frontales aleatorios
+		function createFrontSnowflake() {
+			const container = document.querySelector('.snowflakes-front');
+			if (!container) return;
+
+			const snowflake = document.createElement('div');
+			snowflake.className = 'snowflake-front-dynamic';
+			snowflake.textContent = Math.random() > 0.5 ? '❅' : '❆';
+			
+			// Propiedades aleatorias
+			const left = Math.random() * 100;
+			const size = 2.5 + Math.random() * 1.5; // 2.5em - 4em
+			const duration = 12 + Math.random() * 6; // 12-18s
+			const swayDuration = 3 + Math.random() * 3; // 3-6s
+			const swayAmount = 30 + Math.random() * 40; // 30-70px
+			const rotation = 360 + Math.random() * 360; // 360-720 grados
+			
+			snowflake.style.left = `${left}%`;
+			snowflake.style.fontSize = `${size}em`;
+			snowflake.style.setProperty('--fall-duration', `${duration}s`);
+			snowflake.style.setProperty('--sway-duration', `${swayDuration}s`);
+			snowflake.style.setProperty('--sway-amount', `${swayAmount}px`);
+			snowflake.style.setProperty('--rotation', `${rotation}deg`);
+			
+			container.appendChild(snowflake);
+			
+			// Eliminar después de que termine la animación
+			setTimeout(() => {
+				snowflake.remove();
+			}, duration * 1000);
+		}
+
+		// Crear copos frontales ocasionalmente
+		function scheduleNextFrontSnowflake() {
+			const delay = 35000 + Math.random() * 15000; // 35-50 segundos
+			setTimeout(() => {
+				createFrontSnowflake();
+				scheduleNextFrontSnowflake();
+			}, delay);
+		}
+
+		// Iniciar después de 2 segundos
+		setTimeout(() => {
+			createFrontSnowflake();
+			scheduleNextFrontSnowflake();
+		}, 2000);
+	</script>
+</html>
